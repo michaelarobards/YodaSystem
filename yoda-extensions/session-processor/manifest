@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "yoda-session-processor": {
+      "command": "node",
+      "args": ["C:\\Yoda Mobile\\YodaSystem\\yoda-extensions\\session-processor\\server\\index.js"],
+      "env": {
+        "CLOUDFLARE_ACCOUNT_ID": "299311f7a0bb2b23f2a84cd36e67589d",
+        "CLINICAL_DB_ID": "7ab6743b-2e63-474a-85d2-4e9dd59859ba",
+        "MEMORY_DB_ID": "b79eba66-2f1d-4ac6-bec1-423385949c87",
+        "GOOGLE_DRIVE_FOLDER": "Clinical_Sessions",
+        "HOURLY_RATE": "225",
+        "CLOUDFLARE_API_TOKEN": "YOUR_CLOUDFLARE_API_TOKEN_HERE"
+      }
+    }
+  }
+}

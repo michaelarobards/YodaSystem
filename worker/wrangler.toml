@@ -1,0 +1,17 @@
+name = "yoda-mobile"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+account_id = "299311f7a0bb2b23f2a84cd36e67589d"
+
+[env.production]
+workers_dev = true
+
+[[d1_databases]]
+binding = "CLINICAL_DB"
+database_name = "smart-clinical-workflow"
+database_id = "7ab6743b-2e63-474a-85d2-4e9dd59859ba"
+
+[[d1_databases]]
+binding = "MEMORY_DB"
+database_name = "michael_memory"
+database_id = "b79eba66-2f1d-4ac6-bec1-423385949c87"
